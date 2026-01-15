@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_hint">#9E9E9E</color>
+
+    <color name="verve_soft_pink">#F8BBD0</color>
+    <color name="verve_purple">#A7629C</color>
+    <color name="verve_cyan">#00B3E5</color>
+    <color name="verve_blue_dark">@color/verve_purple</color>
+    <color name="verve_blue_accent">@color/verve_soft_pink</color>
+    <color name="nav_icon_color">@color/white</color>
+    <color name="verve_icon_dark">#424242</color>
+</resources>

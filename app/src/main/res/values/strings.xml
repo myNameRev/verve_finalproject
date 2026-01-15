@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VERVE</string>
+    <string name="add_mood">Add Mood</string>
+    <string name="edit_mood">Edit Mood</string>
+    <string name="delete_mood">Delete Mood</string>
+    <string name="confirm_delete">Are you sure you want to delete this mood?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="mood_added">Mood Added!</string>
+    <string name="mood_updated">Mood Updated!</string>
+    <string name="mood_deleted">Mood Deleted!</string>
+    <string name="empty_error">Please write something...</string>
+    
+    <!-- Profile Strings -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="profile_updated">Profile updated successfully!</string>
+    <string name="error_empty_mood">Please tell me how you feel</string>
+</resources>

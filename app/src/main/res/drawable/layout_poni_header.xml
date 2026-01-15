@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_poni_rounded"
+    android:paddingTop="50dp"
+    android:paddingBottom="40dp"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iv_header_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/verve"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="Logo" />
+
+        <TextView
+            android:id="@+id/tv_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VERVE"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_theme_toggle"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_theme_toggle"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        app:tint="@color/white"
+        android:contentDescription="Toggle Theme" />
+
+</RelativeLayout>
